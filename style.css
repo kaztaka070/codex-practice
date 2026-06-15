@@ -256,6 +256,18 @@ h1 {
   border-color: rgba(15, 118, 110, 0.28);
 }
 
+.site-footer {
+  padding: 32px clamp(20px, 5vw, 72px);
+  color: var(--muted);
+  text-align: center;
+  border-top: 1px solid var(--line);
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 900px) {
   .hero,
   .research-list {
