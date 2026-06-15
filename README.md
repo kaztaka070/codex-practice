@@ -4,7 +4,7 @@
 
 ## GitHub Pages で公開する方法
 
-このリポジトリは、`index.html` と `style.css` をリポジトリ直下に置いた静的サイトです。GitHub Pages 用のワークフローを追加しているため、`main` ブランチへ push すると自動で公開できます。
+このリポジトリは、`index.html` と `style.css` をリポジトリ直下に置いた静的サイトです。GitHub Pages 用のワークフローが公開用ファイルだけを `_site` にまとめてアップロードするため、`main` ブランチへ push すると自動で公開できます。
 
 1. GitHub のリポジトリ画面で **Settings** を開きます。
 2. **Pages** を選択します。
